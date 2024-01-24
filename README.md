@@ -64,6 +64,10 @@ Watch our [series](https://www.youtube.com/playlist?list=PLwy9Bnco-IpfZ72VQ7hce8
 
 [Via Nuget](https://www.nuget.org/packages/PactNet/)
 
+### Charles' notes
+To build this solution itself, we need to run the sh commend within the build folder (see the CI steps in .github folder)
+To do this on a Windows machine, we can open a Git Bash and run this command ```bash -c "build/download-native-libs.sh"```
+
 ![----------](https://raw.githubusercontent.com/pactumjs/pactum/master/assets/rainbow.png)
 
 ## Usage
